@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<title>Accueil</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<meta charset="utf-8">
+	<script src="https://kit.fontawesone.com/yourcode.js"></script>
+</head>
+<body>
+	<nav>
+		<input type="checkbox" id="check">
+		<label for="check" class="checkbtn">
+			<i class="fas fa-bars">Menu</i>
+		</label>
+		<img src="go.png" class="logo">
+		<ul>
+			<li><a href="" class="active">Home</a></li>
+			<li><a href="">ACCUEIL</a></li>
+			<li><a href="">FORMATIONS</a></li>
+			<li><a href="">NOS PARTENAIRES</a></li>
+			<li><a href="">CONTACT</a></li>
+			<li><a href="">Inscription</a></li>
+			<li><a href="">connexion</a></li>
+		</ul>
+	</nav>
+	<section>
+	<div id="div1">
+		<form id="form1">
+			<center><legend id="legend">INSCRIPTIONS POUR LES NOUVELLES PERSONNES</legend></center>
+			<div class="div-form">
+				<label class="label">NOM</label>
+				<br>
+				<input type="text" name="name" placeholder="Veillez saisir votre nom" class="input-form" id="nom" required="required" maxlength="7">
+				<span id="nom_manquant"></span>
+			</div>
+			<div class="div-form2">
+				<label class="label">PRENOMS</label>
+				<br>
+				<input type="text" name="name" placeholder="Veillez saisir votre prénom" class="input-form" id="prenom" required="required" maxlength="10">
+				<span id="prenom_manquant"></span>
+			</div>
+			<div class="div-form">
+				<label class="label">NUMERO</label>
+				<br>
+				<input type="tel" name="name" placeholder="Veillez saisir votre Numéro" class="input-form" id="nunero" required="required" maxlength="8">
+			</div>
+			<div class="div-form2">
+				<label class="label">EMAIL</label>
+				<br>
+				<input type="email" name="name" placeholder="Veillez saisir votre mail" class="input-form" id="mail" required="required" minlength="25">
+			</div>
+			<div class="div-form">
+				<label class="label">MOT DE PASSE</label>
+				<br>
+				<input type="password" name="name" placeholder="Veillez saisir votre mot de passe" class="input-form" id="mdp" required="required" minlength="8">
+			</div>
+			<div class="div-form">
+				<label class="label">CONFIRMATION MDP</label>
+				<br>
+				<input type="password" name="name" placeholder="Veillez saisir votre mot de passe de nouveau" class="input-form" id="cmdp" required="required" minlength="8">
+			</div>
+			<div>
+				<input type="submit" value="ENVOYER" id="submit">
+			</div>
+			</form>
+		</div>
+	</section>
+	<script src="java.js"></script>
+</body>
+</html>
